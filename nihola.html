@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olaleye Eniola | IT Student Portfolio</title>
+
+    <link rel="proconnect" href="https://fonts.googleapis.com">
+    <link rel="proconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navbar_inner">
+            <a href="#home" class="navbar_logo">OE<span class="navbar_logo-dot">.</span></a>
+
+            <nav class="navbar_links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home" class="hero">
+        <div class="hero_content reveal">
+            <p class="hero_eyebrow">Hello, my name is</p>
+
+            <h1 class="hero_name">Olaleye Eniola</h1>
+
+            <h2 class="hero_role">IT Student &amp; Aspiring Software Engineer</h2>
+
+
+            <div class="hero_terminal">
+                <span class="hero_terminal-dot hero_terminal-dot--red"></span>
+                <span class="hero_terminal-dot hero_terminal-dot--yellow"></span>
+                <span class="hero_terminal-dot hero_terminal-dot--green"></span>
+                <span class="hero_terminal-text">
+                    Nihola@portfolio:~$ <span id="typedText"></span><span class="hero_cursor">|</span>
+                </span>
+            </div>
+
+            <p class="hero_description">
+                I build clean, functional web and mobile apps while learning the
+                tools real developers use everyday. Currently sharpening my Skills
+                in JavaScript, React, and Java as I work towards my first internship.
+            </p>
+
+            <div class="hero_button">
+                <a href="#projects" class="btn btn--primary">View My Work</a>
+                <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="hero_image-wrap reveal">
+            <img class="hero_image" src="asset/1000009877.jpg" alt="Portrait Photo of Olaleye Eniola" width="500"
+                height="500">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h2 class="section-title reveal">
+            <span class="section-title_index">01</span> About Me
+        </h2>
+
+        <div class="about_grid">
+            <div class="about_text reveal">
+                <p>
+                    I'm a final-year IT student with interest in full-stack
+                    development. My journey started with simple HTML pages, and it has
+                    grown into building interactive websites and small mobile apps as
+                    part of my coursework and personal projects
+                </p>
+                <p>
+                    I enjoy turning ideas into working software, and I'm especially
+                    drawn to the moment a feature finally clicks into place after a
+                    long debugging sessions. When I'm not coding, I'm usually reading
+                    about new frameworks or helping classmates with their assignments.
+                </p>
+
+                <ul class="'about_facts">
+                    <li>🎈 BSC Information Technolgy, 4th Year</li>
+                    <li>🎆 Based in Lagos, Nigeria</li>
+                    <li>🎇 Open to internship opportunities</li>
+                </ul>
+            </div>
+
+            <div class="about_image-wrap reveal">
+                <img src="asset/1000011434.jpg" alt="Olaleye Eniola working on a laptop" width="450" height="350"
+                    loading="lazy">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="skills">
+        <h2 class="section-title reveal">
+            <span class="section-title_index">02</span>My Tech Stack
+        </h2>
+
+        <p class="section-subtitle reveal">
+            Technologies and langauage I currently use or actively learning.
+        </p>
+
+        <div class="skills_grid">
+            <div class="skills-card reveal" data-delay="0">
+                <div class="skills-card_icon">🎨</div>
+                <h3>HTML &amp; CSS</h3>
+                <p>Structuring and styling responsive web pages from scratch.</p>
+            </div>
+
+            <div class="skills-card reveal" data-delay="1">
+                <div class="skills-card_icon">🥽</div>
+                <h3>JavaScript</h3>
+                <p>Adding interactivity, handling events, and working with DOM.</p>
+            </div>
+
+            <div class="skills-card reveal" data-delay="2">
+                <div class="skills-card_icon">🎒</div>
+                <h3>React</h3>
+                <p>Building component-based user interfaces for the web</p>
+            </div>
+
+            <div class="skills-card reveal" data-delay="3">
+                <div class="skills-card_icon">🎫</div>
+                <h3>React Native</h3>
+                <p>Turning React skills into cross-platform mobile apps.</p>
+            </div>
+
+            <div class="skills-card reveal" data-delay="4">
+                <div class="skills-card_icon">🦺</div>
+                <h3>Java</h3>
+                <p>Object-oriented programming and backend logic fundamentals.</p>
+            </div>
+
+            <div class="skills-card reveal" data-delay="5">
+                <div class="skills-card_icon">🎪</div>
+                <h3>Spring</h3>
+                <p>Learning to build REST APIs with the Spring framework.</p>
+            </div>
+
+            <div class="skills-card reveal" data-delay="6">
+                <div class="skills-card_icon">🎁</div>
+                <h3>Kotlin</h3>
+                <p>Exploring mordern Android development with Kotlin</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2 class="section-title reveal">
+            <span class="section-title_index">03</span>Projects
+        </h2>
+
+        <p class="section-subtitle reveal">
+            A few things I've built while learning. Click the links to see the
+            live demo or the source code
+        </p>
+
+        <div class="project_grid">
+            <article class="project-card reveal" data-delay="0">
+                <div class="project-card_image-wrap">
+                    <img src="asset/task manager.jpeg" alt="Screenshot of the Task Manager app" loading="lazy">
+                </div>
+                <div class="project-card_body">
+                    <h3>Task Manager app</h3>
+                    <p>
+                        A simple to-do list web app where users can add, complete, and
+                        delete tasks. Built to practice DOM manipulation and local
+                        storage in JavaScript
+                    </p>
+                    <div class="project-card_tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-card_links">
+                        <a href="#" class="link">Live Demo →</a>
+                        <a href="#" class="link">Source Code →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card reveal" data-delay="1">
+                <div class="project-card_image-wrap">
+                    <img src="asset/tracecore.jpeg" alt="Screenshot of the TraceCore studio" loading="lazy">
+                </div>
+                <div class="project-card_body">
+                    <h3>TraceCore studio</h3>
+                    <p>
+                        TraceCore Studio is a Python-based CBT and quiz management system that allows teachers to
+                        create, edit, delete, store, and manage questions while students take interactive tests through
+                        a graphical interface.
+                    </p>
+                    <div class="project-card_tags">
+                        <span class="tag">PYTHON</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <div class="project-card_links">
+                        <a href="#" class="link">Live Demo →</a>
+                        <a href="#" class="link">Source Code →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card reveal" data-delay="2">
+                <div class="project-card_image-wrap">
+                    <img src="image4.jpg" alt="Screenshot of the Library Catalog System" loading="lazy">
+                </div>
+                <div class="project-card_body">
+                    <h3>Country Lookup System</h3>
+                    <p>
+                        A Java desktop application for managing book records, built as
+                        part of my Object-Oriented Progrmming coursework
+                    </p>
+                    <div class="project-card_tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">OOP</span>
+                    </div>
+                    <div class="project-card_links">
+                        <a href="#" class="link">Live Demo →</a>
+                        <a href="#" class="link">Source Code →</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2 class="section-title reveal">
+            <span class="section-title_index">04</span>Get In Touch
+        </h2>
+
+        <p class="section-subtitle reveal">
+            I'm currently looking for intership opportunities. Feel free to reach
+            out through any of the platforms below
+        </p>
+
+        <div class="contact_grid">
+            <a href="mailto:enniewealth209@gmail.com" class="contact-card reveal" data-delay="0">
+                <div class="contact-card_icon">🧧</div>
+                <h3>Email</h3>
+                <p>enniewealth209@gmail.com</p>
+            </a>
+
+            <a href="https://github.com/enniewealth209-crypto" target="_blank" rel="noopener" class="contact-card reveal"
+                data-delay="1">
+                <div class="contact-card_icon">🎀</div>
+                <h3>Github</h3>
+                <p>github.com/enniewealth209-crypto</p>
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" class="contact-card reveal" data-delay="2">
+                <div class="contact-card_icon">👔</div>
+                <h3>LinkedIn</h3>
+                <p>linked.com/in/enniewealth209-crypto</p>
+            </a>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>Designed &amp; built by Olaleye Eniola</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
